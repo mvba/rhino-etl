@@ -24,9 +24,9 @@ task Init -depends Clean {
 	Generate-Assembly-Info `
 		-file "$base_dir\Rhino.Etl.Core\Properties\AssemblyInfo.cs" `
 		-title "Rhino ETL $version" `
-		-description "Developer freindly ETL Library for .NET" `
+		-description "Developer friendly ETL Library for .NET" `
 		-company "Hibernating Rhinos" `
-		-product "Developer freindly ETL Library for .NET $version" `
+		-product "Developer friendly ETL Library for .NET $version" `
 		-version $version `
 		-clsCompliant "false" `
 		-copyright "Hibernating Rhinos & Ayende Rahien 2007 - 2009"
@@ -34,9 +34,9 @@ task Init -depends Clean {
 	Generate-Assembly-Info `
 		-file "$base_dir\Rhino.Etl.Dsl\Properties\AssemblyInfo.cs" `
 		-title "Rhino ETL DSL $version" `
-		-description "Developer freindly ETL Library for .NET" `
+		-description "Developer friendly ETL Library for .NET" `
 		-company "Hibernating Rhinos" `
-		-product "Developer freindly ETL Library for .NET $version" `
+		-product "Developer friendly ETL Library for .NET $version" `
 		-version $version `
 		-clsCompliant "false" `
 		-copyright "Hibernating Rhinos & Ayende Rahien 2007 - 2009"
@@ -44,9 +44,9 @@ task Init -depends Clean {
 	Generate-Assembly-Info `
 		-file "$base_dir\Rhino.Etl.Tests\Properties\AssemblyInfo.cs" `
 		-title "Rhino ETL Tests $version" `
-		-description "Developer freindly ETL Library for .NET" `
+		-description "Developer friendly ETL Library for .NET" `
 		-company "Hibernating Rhinos" `
-		-product "Developer freindly ETL Library for .NET $version" `
+		-product "Developer friendly ETL Library for .NET $version" `
 		-version $version `
 		-clsCompliant "false" `
 		-copyright "Hibernating Rhinos & Ayende Rahien 2007 - 2009"
@@ -54,9 +54,9 @@ task Init -depends Clean {
 	Generate-Assembly-Info `
 		-file "$base_dir\Rhino.Etl.Cmd\Properties\AssemblyInfo.cs" `
 		-title "Rhino ETL Command Line $version" `
-		-description "Developer freindly ETL Library for .NET" `
+		-description "Developer friendly ETL Library for .NET" `
 		-company "Hibernating Rhinos" `
-		-product "Developer freindly ETL Library for .NET $version" `
+		-product "Developer friendly ETL Library for .NET $version" `
 		-version $version `
 		-clsCompliant "false" `
 		-copyright "Hibernating Rhinos & Ayende Rahien 2007 - 2009"
