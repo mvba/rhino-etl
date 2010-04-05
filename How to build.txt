@@ -1,12 +1,21 @@
+The build script assumes that you have git.exe on your environment path. 
+	(e.g.: C:\Program Files (x86)\Git\cmd )
+	for instructions on how to set your path 
+	see: http://msdn.microsoft.com/en-us/library/ee537574(office.14).aspx
+
+The build script is unsigned so you will have to enable unsigned scripts to run as follows:
+
+	open a PowerShell window as administrator and run this command:
+	Set-ExecutionPolicy unrestricted
+
 In order to build this project, you need to execute the psake build script from the PowerShell console.
 You do this using the following command from the root project directory:
 
+	.\psake.ps1 default.ps1 Compile
+
+To run the tests call:
+
 	.\psake.ps1 default.ps1
 	
-You may need to allow script execution by running the following command as adminstrator:
-
-	Set-ExecutionPolicy unrestricted
-	
-Also note that the build script assume that you have git.exe on your path.
-
-Running the tests requires access to a database called 'test' on the default instance of SQL Server
+Note: Running the tests requires access to a database called 'test' on the default instance of SQL Server
+	otherwise the tests will hang.
